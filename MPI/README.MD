@@ -1,0 +1,1 @@
+These MPI sample source files were taken from the example materials. Credits should goes to the respective authors of those sources.
