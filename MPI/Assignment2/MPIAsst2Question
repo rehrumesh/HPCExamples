@@ -1,0 +1,22 @@
+HPC Assignment 1 Part 2: Code, compile and run a matrix multiplication using MPI
+
+Description: For the second part of assignment 1, you have to create an MPI matrix multiplication code. You can do it on your time and demonstrate it to me on the week beginning June 8th. 
+
+The following requirments have to be met:
+1. The code should give numerically correct answers. (just check it for a small sized computation).
+2. The code should cater to any matrix size. i.e., the number of rows in the result matrix may not be exactly divisible by the number of available processors.
+3. The master node, should also take part in the computation.
+4. You can compare the parallel computation time with the sequential computation time. [For your convenience a sequential matrix multiplication code (mm.c) is made available in this directory.]
+5. You are advised to do compiler optimizations as well. (e.g., cc -O3 mm.c)
+6. Check your program for large matrix sizes in order for you to see speedup.
+ 
+During a future lecture, I'll pass a sheet around on which you can
+give your time preferences for the demonstration. During the demonstration, you
+should explain your source code to me, compile and run it on the swelanka cluster. I would be glad if we can get some speedup.
+
+
+Note: You may use the mpiasstcode.c to build your mpi mm code. However you are free to use your own mpi code as well. 
+
+Hope you get some benefit out of this assignment. Best wishes!
+
+
